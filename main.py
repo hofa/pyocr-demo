@@ -3,8 +3,9 @@ import sys
 import pyocr
 import pyocr.builders
 from PIL import Image
-import logger
-
+#import logger
+import logging
+logger = logging.getLogger()
 dir = './images/'
 def image_to_string(content):
     tools = pyocr.get_available_tools()
