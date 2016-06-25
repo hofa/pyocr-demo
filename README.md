@@ -13,7 +13,13 @@ python ocr demo
 >> pip install pillow
 
 > Tesseract-ocr install
-[https://github.com/tesseract-ocr/tesseract](https://github.com/tesseract-ocr/tesseract)
+* [https://github.com/tesseract-ocr/tesseract](https://github.com/tesseract-ocr/tesseract)
+* yum list tesseract*
+* yum install tesseract tesseract-devel tesseract-langpack-*
+* yum install tesseract tesseract-devel tesseract-langpack-chi_sim
+
+> python Tesseract
+pip install pytesseract
 
 # pip list
 (py3env) [root@dr-local-db pyocr-demo]# pip list
@@ -28,6 +34,7 @@ simplejson (3.8.2)
 six (1.10.0)
 tornado (4.3)
 wheel (0.29.0)
+
 
 
 
