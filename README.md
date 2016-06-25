@@ -10,8 +10,6 @@ python ocr demo
 >> yum install libtiff-devel libjpeg-devel zlib-devel freetype-devel \
     lcms2-devel libwebp-devel tcl-devel tk-devel
     
-
->> pip
 >> pip install pillow
 
 
