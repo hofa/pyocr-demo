@@ -7,15 +7,15 @@ python ocr demo
 [http://pillow.readthedocs.io/en/latest/](http://pillow.readthedocs.io/en/latest/)
 
 > PIL install
-yum install libtiff-devel libjpeg-devel zlib-devel freetype-devel \
+>> yum install libtiff-devel libjpeg-devel zlib-devel freetype-devel \
     lcms2-devel libwebp-devel tcl-devel tk-devel
     
 
 >> pip
-pip install pillow
+>> pip install pillow
 
 
->> pip list
+# pip list
 (py3env) [root@dr-local-db pyocr-demo]# pip list
 dev (0.4.0)
 fake-useragent (0.0.8)
