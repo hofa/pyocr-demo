@@ -6,3 +6,28 @@ python ocr demo
 > PIL
 [http://pillow.readthedocs.io/en/latest/](http://pillow.readthedocs.io/en/latest/)
 
+#install
+yum install libtiff-devel libjpeg-devel zlib-devel freetype-devel \
+    lcms2-devel libwebp-devel tcl-devel tk-devel
+    
+
+#pip
+pip install pillow
+
+
+#pip list
+(py3env) [root@dr-local-db pyocr-demo]# pip list
+dev (0.4.0)
+fake-useragent (0.0.8)
+ipkg (0.11.0)
+Pillow (3.2.0)
+pip (8.1.2)
+requests (2.10.0)
+setuptools (23.0.0)
+simplejson (3.8.2)
+six (1.10.0)
+tornado (4.3)
+wheel (0.29.0)
+
+
+
