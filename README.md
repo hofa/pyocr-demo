@@ -12,6 +12,8 @@ python ocr demo
     
 >> pip install pillow
 
+> Tesseract-ocr install
+[https://github.com/tesseract-ocr/tesseract](https://github.com/tesseract-ocr/tesseract)
 
 # pip list
 (py3env) [root@dr-local-db pyocr-demo]# pip list
